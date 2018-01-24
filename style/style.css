@@ -1,0 +1,111 @@
+ #callus {
+     color: #C23800;
+}
+ #logo {
+     color: #F55E00;
+}
+ .main {
+     background-color: #F9F9F9;
+     width: 1200px;
+     height: 100px;
+     padding-right: 30px;
+}
+ .main .col-6 {
+     top: 25px;
+}
+ .main .col-6 h1 {
+     margin-right: 25px;
+}
+ h3,h4 {
+     color: #F55E00;
+}
+ .welcome {
+     background-color: #F55E00;
+     width: 1200px;
+}
+ .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+     background-color: #F55E00;
+     border-color: #F55E00;
+}
+ hr {
+     color: black;
+     background-color: black;
+     height: 3px;
+}
+ .info {
+     float: left;
+}
+ .info #callus {
+     float: left;
+     color: white;
+     padding-right: 5px;
+     color: #C23800;
+}
+ .info #number {
+     color: white;
+}
+ .setup {
+     float: right;
+}
+ .setup #login {
+     color: #C23800;
+    ;
+}
+ .setup #signup {
+     color: white;
+     padding-left: 8px;
+}
+ .form-control {
+     background-color: #F9F9F9;
+}
+ ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+ .main-nav, .drop-nav {
+}
+ .main-nav {
+     float: right;
+     color: black;
+}
+ .main-nav > li {
+     float: left;
+}
+ .main-nav li:first-child {
+     border-left: none;
+}
+ .main-nav a {
+     color: black;
+     display: block;
+     padding: 15px 15px;
+     text-decoration: none;
+     font-size: 10px;
+     background-color: #F9F9F9;
+}
+ .main-nav a:hover {
+     text-decoration: underline;
+     \ 
+}
+ .dropdown, .flyout {
+     position: relative;
+     background-color: #F9F9F9;
+}
+ .drop-nav, .flyout-nav {
+     position: absolute;
+     display: none;
+     border:1px solid black;
+     text-decoration: none;
+}
+
+ .dropdown:hover > .drop-nav, .flyout:hover > .flyout-nav {
+     display: block;
+}
+ .flyout-nav {
+     left: 100%;
+     top: -30%;
+}
+ .flyout:hover a, .flyout-nav {
+     background-color: #F9F9F9;
+}
+ 
